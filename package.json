@@ -1,0 +1,20 @@
+{
+  "name":"ninja-kakashi",
+  "version": "1.0.1",
+  "description": "oceans自用工具包",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "who": "npm whoami",
+    "publish": "tsc && npm config set registry http://registry.npmjs.org/ && npm publish && npm config set registry https://registry.npm.taobao.org/",
+  },
+  "author": "oceans-pro",
+  "license": "ISC",
+  "keywords": [
+    "oceans-pro"
+  ],
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
