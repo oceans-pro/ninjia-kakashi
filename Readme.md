@@ -1,9 +1,10 @@
 # ninja-kakashi
-模仿一些 JS 原生方法/数据结构，作为学习基础用
+模仿一些 JS 的一些原生方法/数据结构，作为学习基础用
 
-- 分别使用 Typescript/Javascript 实现，感受静态和动态语言的特色
-
-
+## 安装
+```shell script
+npm install ninja-kakashi 
+```
 ## 使用
 ```js
 // 模块
@@ -28,5 +29,3 @@ require('@oceans-pro/copy-ninja')
 let x = [1, 2, 3]
 x._map((item) => console.log(item))
 ```
-
-# ninjia-kakashi
